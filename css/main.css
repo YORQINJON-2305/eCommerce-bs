@@ -1,4 +1,35 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Poppins ";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.woff2 ") format("woff2 "), url("../fonts/poppins-v20-latin-500.woff ") format("woff ");
+}
+@font-face {
+  font-family: "Poppins ";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.woff2 ") format("woff2 "), url("../fonts/poppins-v20-latin-600.woff ") format("woff ");
+}
+@font-face {
+  font-family: "Poppins ";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v20-latin-700.woff2 ") format("woff2 "), url("../fonts/poppins-v20-latin-700.woff ") format("woff ");
+}
+@font-face {
+  font-family: "Open Sans ";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v34-latin-regular.woff2 ") format("woff2 "), url("../fonts/open-sans-v34-latin-regular.woff ") format("woff ");
+}
+.e-container {
+  width: 100%;
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /*!
  * Bootstrap  v5.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
