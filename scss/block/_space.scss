@@ -1,0 +1,44 @@
+/*space*/
+.space{
+    margin-top: 56px;
+}
+.space-img-box{
+    width: 100%;
+    max-width: 569px;
+    margin-top: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    background-image: url("../images/egg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+
+    &:nth-child(2){
+        background-image: url("../images/lavash.jpg");
+    }
+}
+.green{
+    padding: 0px 12px;
+    background-color: #F4F8EC;
+    border-radius: 50px;
+}
+.space-text{
+    width: 100%;
+    max-width: 380px;
+    padding-top: 195px;
+}
+.space-list{
+    padding-top: 10px;
+}
+.space-item:first-child::before{
+    margin-right: 8px;
+    content: "";
+     background-image: url("../images/boy-home.png");
+     background-repeat: no-repeat;
+     display: inline-block;
+     background-size: cover;
+     width: 32px;
+     height: 32px;
+}
