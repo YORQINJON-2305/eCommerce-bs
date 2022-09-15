@@ -1,0 +1,36 @@
+/*fresh*/
+.fresh-item{
+    &:first-child::before{
+     content: "";
+     background-image: url("../images/grid-icon.svg");
+     background-repeat: no-repeat;
+     display: inline-block;
+     background-size: cover;
+     width: 13px;
+     height: 13px;
+
+    }
+    &:nth-child(2){
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    &:nth-child(2)::before{
+        content: "";
+        background-image: url("../images/list-icon.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+    }
+    &:last-child::before{
+        margin-right: 5px;
+        content: "";
+        background-image: url("../images/Default.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 32px;
+        height: 17px;
+    }
+}

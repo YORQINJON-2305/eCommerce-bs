@@ -1,0 +1,40 @@
+/*page*/
+.page{
+    margin-top: 64px;
+}
+.page-btn{
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    background-color: #6A983C;
+    padding: 12px 16px;
+    border: 2px solid #46760A;
+    border-radius: 12px;
+    &::after{
+        margin-left: 8px;
+        content: "";
+        display: inline-block;
+        background-image: url("../images/Vector.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 4px;
+        height: 6px;
+    }
+}
+.num-page{
+    padding: 0px 12px;
+    background-color: #F4F8EC;
+    border-radius: 50px;
+}
+@media only screen and (max-width:410px){
+    .page-inneer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .page-btn{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+ }
