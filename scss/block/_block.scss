@@ -1,7 +1,13 @@
 @import "container";
 @import "header";
-// @import "";
-// @import "";
+@import "modal";
+@import "category";
+@import "product";
+@import "customer";
+@import "headline";
+@import "blog";
+
+
 
 @import "fresh";
 @import "space";
@@ -10,6 +16,9 @@
 @import "dinner";
 @import "tags";
 @import "topic";
+
+// CARROT PAGE  
+@import "carrot";
 
 
 @import "footer";

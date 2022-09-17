@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>eCommerce</title>
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap-5.2.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="slick/slick/slick.css">
 </head>
 <body>
+  
     <!-- HEADER START -->
     <header class="site-header">
       <div class="e-container">
@@ -72,7 +74,7 @@
                </a>
              </div>
              <div class="col col-sm-1 d-flex align-items-center justify-content-center">
-               <button class="cart-btn position-relative">
+               <button class="cart-btn position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                  <span class="cart-badge position-absolute d-flex align-items-center justify-content-center">4</span>
                </button>
              </div>
@@ -113,19 +115,899 @@
         </div>
       </nav>
     </header>
+  
+  <!-- Main start -->
+  
+  <main class="site-main">
+    
+    <!-- category start -->
+    
+    <section class="category pt-5 pb-5">
+      <div class="e-container">
+        <div class="row">
+          <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+            <h2 class="category__title mb-3 text-center text-lg-start">
+              Category menu
+            </h2>
+            <ul class="category__list ps-0 list-unstyled text-center text-md-start d-md-flex justify-content-md-between flex-lg-column">
+              <li class="category__item">
+                <a class="category__link" href="#">
+                  Bakery
+                </a>
+              </li>
+              <li class="category__item">
+                <a class="category__link" href="./fresh.html">
+                  Fruit and vegetables
+                </a>
+              </li>
+              <li class="category__item">
+                <a class="category__link" href="#">
+                  Meat and fish
+                </a>
+              </li>
+              <li class="category__item">
+                <a class="category__link" href="#">
+                  Drinks
+                </a>
+              </li>
+              <li class="category__item">
+                <a class="category__link mb-5 mb-lg-4" href="#">
+                  Kitchen
+                </a>
+              </li>
+            </ul>
+            <div class="d-flex justify-content-center justify-content-lg-start">
+              <a class="category__button" href="#">More categories</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="category__card mb-4 mb-md-0 mx-auto mx-lg-0">
+              <div class="category__info">
+                <span class="category__info-span mb-2 d-inline-block">Banner subfocus</span>
+                <h2 class="category__info-title">
+                  Space for heading
+                </h2>
+                <a class="category__button category__info-btn" href="#">Read recepies</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="category__card mb-4 mb-md-0 mx-auto mx-lg-0">
+              <div class="category__info">
+                <span class="category__info-span mb-2 d-inline-block">Banner subfocus</span>
+                <h2 class="category__info-title">
+                  Space for heading
+                </h2>
+                <a class="category__button category__info-btn" href="#">Read recepies</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- category end -->
+    
+    
+    <!-- Product start -->
+    
+    <section class="product pt-5">
+      <div class="e-container">
+        <div class="row pb-5">
+          <div class="col-12 col-lg-4 mb-5">
+            <h2 class="category__title mb-3 text-center text-lg-start">
+              Best selling products
+            </h2>
+            <ul class="category__list ps-0 list-unstyled text-center text-md-start d-md-flex justify-content-md-between flex-lg-column">
+              <li class="category__item">
+                <a class="category__link" href="#">
+                  Kitchen
+                </a>
+              </li>
+              <li class="category__item">
+                <a class="category__link" href="#">
+                  Meat and fish
+                </a>
+              </li>
+              <li class="category__item">
+                <a class="category__link" href="#">
+                  Special nutrition
+                </a>
+              </li>
+              <li class="category__item">
+                <a class="category__link" href="#">
+                  Pharmacy
+                </a>
+              </li>
+              <li class="category__item">
+                <a class="category__link mb-5 mb-lg-4" href="#">
+                  Baby
+                </a>
+              </li>
+            </ul>
+            <div class="d-flex justify-content-center justify-content-lg-start">
+              <a class="category__button" href="#">More products</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                  <img class="product__card-image mb-3" src="images/carrot.jpg" alt="product-title">
+                  <div class="product__info">
+                    <h2 class="product__title mb-1">
+                      Product Title
+                    </h2>
+                    <p class="product__text mb-3">
+                      Space for a small product description 
+                    </p>
+                    <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                      <div class="product__buy-price d-flex flex-column mb-lg-1">1.48 USD
+                        <del class="product__del product-del-one">48.56</del>
+                      </div>
+                      <a class="product__buy-btn" href="./carrot.html">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                  <div class="position-relative">
+                    <img class="product__card-image mb-3" src="images/diet.jpg" alt="product-title">
+                    <span class="product-discount">- 36 %</span>
+                  </div>
+                  <div class="product__info">
+                    <h2 class="product__title mb-1">
+                      Product Title
+                    </h2>
+                    <p class="product__text mb-3">
+                      Space for a small product description 
+                    </p>
+                    <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                      <div class="product__buy-price d-flex flex-column mb-lg-1">0.28 USD
+                        <del class="product__del">48.56</del>
+                      </div>
+                      <a class="product__buy-btn" href="#">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                  <div class="position-relative">
+                    <img class="product__card-image mb-3" src="images/egg.jpg" alt="product-title">
+                    <span class="product-discount">- 36 %</span>
+                  </div>
+                  <div class="product__info">
+                    <h2 class="product__title mb-1">
+                      Product Title
+                    </h2>
+                    <p class="product__text mb-3">
+                      Space for a small product description 
+                    </p>
+                    <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                      <div class="product__buy-price d-flex flex-column mb-lg-1">1.12 USD
+                        <del class="product__del ">48.56</del>
+                      </div>
+                      <a class="product__buy-btn" href="#">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-12 col-lg-4 mb-5">
+            <h2 class="category__title mb-3 text-center text-lg-start">
+              Best from Farmers
+            </h2>
+            <ul class="category__list ps-0 list-unstyled text-center text-md-start d-md-flex justify-content-md-between flex-lg-column">
+              <li class="category__item">
+                <a class="category__link" href="#">
+                  Carrots
+                </a>
+              </li>
+              <li class="category__item">
+                <a class="category__link" href="#">
+                  Tomatoes
+                </a>
+              </li>
+              <li class="category__item">
+                <a class="category__link" href="#">
+                  Potatoes
+                </a>
+              </li>
+              <li class="category__item">
+                <a class="category__link" href="#">
+                  Chicken
+                </a>
+              </li>
+              <li class="category__item">
+                <a class="category__link mb-5 mb-lg-4" href="#">
+                  Pork
+                </a>
+              </li>
+            </ul>
+            <div class="d-flex justify-content-center justify-content-lg-start">
+              <a class="category__button" href="#">More products</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                  <img class="product__card-image mb-3" src="images/oil.jpg" alt="product-title">
+                  <div class="product__info">
+                    <h2 class="product__title mb-1">
+                      Product Title
+                    </h2>
+                    <p class="product__text mb-3">
+                      Space for a small product description 
+                    </p>
+                    <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                      <div class="product__buy-price d-flex flex-column mb-lg-1">1.48 USD
+                        <del class="product__del product-del-one">48.56</del>
+                      </div>
+                      <a class="product__buy-btn" href="#">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                  <div class="position-relative">
+                    <img class="product__card-image mb-3" src="images/first.png" alt="product-title">
+                    <span class="product-discount">- 36 %</span>
+                  </div>
+                  <div class="product__info">
+                    <h2 class="product__title mb-1">
+                      Product Title
+                    </h2>
+                    <p class="product__text mb-3">
+                      Space for a small product description 
+                    </p>
+                    <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                      <div class="product__buy-price d-flex flex-column mb-lg-1">0.28 USD
+                        <del class="product__del">48.56</del>
+                      </div>
+                      <a class="product__buy-btn" href="#">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                  <div class="position-relative">
+                    <img class="product__card-image mb-3" src="images/bread.jpg" alt="product-title">
+                    <span class="product-discount">- 36 %</span>
+                  </div>
+                  <div class="product__info">
+                    <h2 class="product__title mb-1">
+                      Product Title
+                    </h2>
+                    <p class="product__text mb-3">
+                      Space for a small product description 
+                    </p>
+                    <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                      <div class="product__buy-price d-flex flex-column mb-lg-1">1.12 USD
+                        <del class="product__del">48.56</del>
+                      </div>
+                      <a class="product__buy-btn" href="#">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Product end -->
 
-    <!-- MAIN START -->
-    <main class="site-main">
-      <section class="carrot-product">
-         <div class="container">
-             <div class="">
-               
-             </div>
-         </div>
-      </section>
-    </main>
 
-    <script src="./bs-js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
+    <!-- Customer start -->
+
+    <section class="customer">
+      <div class="e-container">
+        <div class="row d-md-flex align-items-center mb-4 mb-lg-5">
+          <div class="col-12 col-md-6">
+            <h2 class="headline__title text-center text-md-start">
+              Our customers says
+            </h2> 
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+            <div class="btn-group dropend">
+              <button type="button" class="headline__button me-md-3" data-bs-toggle="dropdown" aria-expanded="false">
+                Button
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row px-3 customer__carousel position-relative">
+        <div class="col-12">
+          <div class="customer__card">
+            <p class="customer__text mb-4">
+              “ This is an super space for your customers qoute. Don’t worry it works smooth as pie. You will get all what you need by writiing a text here “
+            </p>
+            <span class="customer__name">
+              Name and Surname
+            </span>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="customer__card customer__card-two">
+            <p class="customer__text mb-4">
+              “ This is an super space for your customers qoute. Don’t worry it works smooth as pie. You will get all what you need by writiing a text here “
+            </p>
+            <span class="customer__name">
+              Name and Surname
+            </span>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="customer__card customer__three">
+            <p class="customer__text mb-4">
+              “ This is an super space for your customers qoute. Don’t worry it works smooth as pie. You will get all what you need by writiing a text here “
+            </p>
+            <span class="customer__name">
+              Name and Surname
+            </span>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="customer__card customer__four">
+            <p class="customer__text mb-4">
+              “ This is an super space for your customers qoute. Don’t worry it works smooth as pie. You will get all what you need by writiing a text here “
+            </p>
+            <span class="customer__name">
+              Name and Surname
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer end -->
+
+    
+    <!-- headline start -->
+    
+    <section class="headline">
+      <div class="e-container">
+        <div class="row d-md-flex align-items-center mb-4 mb-lg-5">
+          <div class="col-12 col-md-6">
+            <h2 class="headline__title text-center text-md-start">
+              Section Headline
+            </h2> 
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+            <div class="btn-group dropend">
+              <button type="button" class="headline__button me-md-3" data-bs-toggle="dropdown" aria-expanded="false">
+                Button
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+              <img class="product__card-image mb-3" src="images/cake.jpg" alt="product-title">
+              <div class="product__info">
+                <h2 class="product__title mb-1">
+                  Product Title
+                </h2>
+                <p class="product__text mb-3">
+                  Space for a small product description 
+                </p>
+                <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                  <div class="product__buy-price d-flex flex-column mb-lg-1">
+                    1.48 USD
+                    <del class="product__del product-del-one">48.56</del>
+                  </div>
+                  <a class="product__buy-btn" href="#">Buy now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+              <img class="product__card-image mb-3" src="images/lavash.jpg" alt="product-title">
+              <div class="product__info">
+                <h2 class="product__title mb-1">
+                  Product Title
+                </h2>
+                <p class="product__text mb-3">
+                  Space for a small product description 
+                </p>
+                <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                  <div class="product__buy-price d-flex flex-column mb-lg-1">
+                    1.48 USD
+                    <del class="product__del product-del-one">48.56</del>
+                  </div>
+                  <a class="product__buy-btn" href="#">Buy now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+              <div class="position-relative">
+                <img class="product__card-image mb-3" src="images/egg.jpg" alt="product-title">
+                <span class="product-discount">- 36 %</span>
+              </div>
+              <div class="product__info">
+                <h2 class="product__title mb-1">
+                  Product Title
+                </h2>
+                <p class="product__text mb-3">
+                  Space for a small product description 
+                </p>
+                <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                  <div class="product__buy-price d-flex flex-column mb-lg-1">
+                    1.48 USD
+                    <del class="product__del">48.56</del>
+                  </div>
+                  <a class="product__buy-btn" href="#">Buy now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+              <img class="product__card-image mb-3" src="images/diet.jpg" alt="product-title">
+              <div class="product__info">
+                <h2 class="product__title mb-1">
+                  Product Title
+                </h2>
+                <p class="product__text mb-3">
+                  Space for a small product description 
+                </p>
+                <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                  <div class="product__buy-price d-flex flex-column mb-lg-1">
+                    1.48 USD
+                    <del class="product__del product-del-one">48.56</del>
+                  </div>
+                  <a class="product__buy-btn" href="#">Buy now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- headline end -->
+
+    <!-- Blog start -->
+    
+    <section class="blog">
+      <div class="e-container">
+        <div class="row d-md-flex align-items-center mb-4 mb-lg-5">
+          <div class="col-12 col-md-6">
+            <h2 class="headline__title text-center text-md-start">
+              Read our Blog posts
+            </h2> 
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+            <div class="btn-group dropend">
+              <button type="button" class="headline__button" data-bs-toggle="dropdown" aria-expanded="false">
+                Go to Blog
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-5">
+            <div class="blog__info position-relative pb-4 ps-4 mx-auto mb-4 mb-md-5 mb-lg-0 d-flex flex-column justify-content-end">
+              <span class="blog__tip position-absolute px-2">Dinner tips</span>
+              <h2 class="blog__title mb-2">
+                Our chef tips for a great and tasty dinner ready in 20 minutes
+              </h2>
+              <div class="blog__avatar d-flex align-items-center">
+                <img class="me-2" src="images/girl-home.png" alt="avatar-png">
+                <span class="blog__span me-3">Autor</span>
+                <p class="blog__date mb-0">
+                  17. 6. 2020
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="blog__desc mx-auto mb-4">
+              <img class="mb-4" src="images/cake.jpg" alt="blog-second-images">
+              <div class="blog__desc-item">
+                <span class="blog__desc-span d-inline-block px-2 mb-2">
+                  Vegetable
+                </span>
+                <h3 class="blog__desc-title mb-3">
+                  Which vegetable your family will love and want’s eat each day
+                </h3>
+                <span class="blog__desc-autor me-3">
+                  Author
+                </span>
+                <span class="blog__desc-autor">
+                  15. 6. 2020
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-xl-4">
+            <div class="d-md-flex justify-content-md-between flex-lg-column">
+              <div class="blog__card d-flex mb-4 align-items-center justify-content-center flex-md-column-reverse flex-lg-row">
+                <div class="blog__card-info">
+                  <h4 class="blog__card-title mb-3 text-md-center text-lg-start">
+                    Salat is kinda good start to your morning routines
+                  </h4>
+                  <div class="d-flex justify-content-md-center justify-content-lg-start">
+                    <span class="blog__desc-autor me-3">
+                      Author
+                    </span>
+                    <span class="blog__desc-autor">
+                      15. 6. 2020
+                    </span>
+                  </div>
+                </div>
+                <img class="mb-2"  src="images/strawbaerry-home.jpg" alt="blog-home">
+              </div>
+              <div class="blog__card d-flex mb-4 align-items-center justify-content-center flex-md-column-reverse flex-lg-row">
+                <div class="blog__card-info">
+                  <h4 class="blog__card-title mb-3 text-md-center text-lg-start">
+                    Salat is kinda good start to your morning routines
+                  </h4>
+                  <div class="d-flex justify-content-md-center justify-content-lg-start">
+                    <span class="blog__desc-autor me-3">
+                      Author
+                    </span>
+                    <span class="blog__desc-autor">
+                      15. 6. 2020
+                    </span>
+                  </div>
+                </div>
+                <img class="mb-2"  src="images/grapes-home.jpg" alt="blog-home">
+              </div>
+              <div class="blog__card d-flex mb-4 mb-lg-0 align-items-center justify-content-center flex-md-column-reverse flex-lg-row">
+                <div class="blog__card-info">
+                  <h4 class="blog__card-title mb-3 text-md-center text-lg-start">
+                    Salat is kinda good start to your morning routines
+                  </h4>
+                  <div class="d-flex justify-content-md-center justify-content-lg-start">
+                    <span class="blog__desc-autor me-3">
+                      Author
+                    </span>
+                    <span class="blog__desc-autor">
+                      15. 6. 2020
+                    </span>
+                  </div>
+                </div>
+                <img class="mb-2 mb-lg-0"  src="images/all-vegitables.jpg" alt="blog-home">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+  </main>
+  
+  <!-- Main end -->
+
+  <!-- START FOOTER -->
+  <footer class="site-footer">
+    <div class="e-container">
+        <div class="footer-top row">
+            <div class="col-sm-6 col-md-4 col-lg-3 pt-2">
+                <h4>Get in touch</h4>
+                <ul class="list-unstyled">
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">About Us</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Careers</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Press Releases</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 pt-2">
+                <h4>Connections</h4>
+                <ul class="list-unstyled">
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Facebook</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Twitter</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Instagram</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Youtube</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 pt-2">
+                <h4>Earnings</h4>
+                <ul class="list-unstyled">
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Become an Affiliate</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Advertise your product</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Sell on Market</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 pt-2">
+                <h4>Account</h4>
+                <ul class="list-unstyled">
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Your account</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Returns Centre</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">100 % purchase protection</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Chat with us</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-end mt-5">
+            <h4>Product tags</h4>
+            <div class="footer-tags d-flex flex-wrap">
+                <span class="tags-f me-3 mt-3">Beans</span>
+                <span class="tags-f me-3 mt-3">Carrots</span>
+                <span class="tags-f me-3 mt-3">Apples</span>
+                <span class="tags-f me-3 mt-3">Garlic</span>
+                <span class="tags-f me-3 mt-3">Mushrooms</span>
+                <span class="tags-f me-3 mt-3">Tomatoes</span>
+                <span class="tags-f me-3 mt-3">Chilli peppers</span>
+                <span class="tags-f me-3 mt-3">Broccoli</span>
+                <span class="tags-f me-3 mt-3">Watermelons</span>
+                <span class="tags-f me-3 mt-3">Oranges</span>
+                <span class="tags-f me-3 mt-3">Bananas</span>
+                <span class="tags-f me-3 mt-3">Grapes</span>
+                <span class="tags-f me-3 mt-3">Cherries</span>
+                <span class="tags-f me-3 mt-3">Meat</span>
+                <span class="tags-f me-3 mt-3">Seo tag</span>
+                <span class="tags-f me-3 mt-3">Fish</span>
+                <span class="tags-f me-3 mt-3">Seo tag</span>
+                <span class="tags-f me-3 mt-3">Fresh food</span>
+                <span class="tags-f me-3 mt-3">Lemons</span>
+            </div>
+        </div>
+        <p class="mt-5">Copyright © 2020 petrbilek.com</p>
+    </div>
+  </footer>
+  <!-- END OF FOOTER -->
+
+  <!-- Modal start -->
+
+  <div class="modal__block px-3 pt-3 pb-5 offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="row d-flex align-items-center mb-4 " id="offcanvasRightLabel">
+      <div class="col-8">
+        <h2 class="modal__title">
+          Shopping cart
+        </h2>
+      </div>
+      <div class="col-4 d-flex justify-content-end">
+        <button class="modal__btn" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="offcanvas-body">
+      <div class="row mb-3  border-bottom">
+        <div class="col-12 mb-3 d-flex">
+          <img class="me-3 modal__image" src="images/grapes-home.jpg" alt="modal-images">
+          <div class="modal__info">
+            <h3 class="modal__info-title mb-1">
+              Product title
+            </h3>
+            <ul class="modal__list">
+              <li class="modal__item">
+                <a href="#" class="moda__link">Farm:
+                  <span class="modal__info-span modal__info-farm">
+                    Tharamis Farm
+                  </span>
+                </a>
+              </li>
+              <li class="modal__item">
+                <a href="#" class="moda__link">Freshness:
+                  <span class="modal__info-span modal__info-day">
+                    1 day old
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 mb-3 d-flex justify-content-between">
+          <ul class="modal__list-icon">
+            <li class="modal__icon-item">
+              <a class="modal__icon-link heart  mb-2" href="#">
+                Wishlist
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link compare mb-2" href="#">
+                Compare
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link remove" href="#">
+                Remove
+              </a>
+            </li>
+          </ul>
+          <div class="modal__start">
+            <img class="mb-3" src="images/star-collection.svg" alt="star-modal">
+            <p class="modal__start-money">
+              36.99 USD
+            </p>
+            <span class="modal__start-discount">
+              48.56 USD
+            </span>
+          </div>
+          <div class="modal__button px-1 d-flex align-items-center">
+            <span class="modal__btn-span">1 pcs</span>
+            <span class="modal__btn-line d-inline-block"></span>
+            <div class="dropdown">
+              <button class="modal__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pcs
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Action</button></li>
+                <li><button class="dropdown-item" type="button">Another action</button></li>
+                <li><button class="dropdown-item" type="button">Something else here</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3  border-bottom">
+        <div class="col-12 mb-3 d-flex">
+          <img class="me-3 modal__image" src="images/grapes-home.jpg" alt="modal-images">
+          <div class="modal__info">
+            <h3 class="modal__info-title mb-1">
+              Product title
+            </h3>
+            <ul class="modal__list">
+              <li class="modal__item">
+                <a href="#" class="moda__link">Farm:
+                  <span class="modal__info-span modal__info-farm">
+                    Tharamis Farm
+                  </span>
+                </a>
+              </li>
+              <li class="modal__item">
+                <a href="#" class="moda__link">Freshness:
+                  <span class="modal__info-span modal__info-day">
+                    1 day old
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 mb-3 d-flex justify-content-between">
+          <ul class="modal__list-icon">
+            <li class="modal__icon-item">
+              <a class="modal__icon-link heart  mb-2" href="#">
+                Wishlist
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link compare mb-2" href="#">
+                Compare
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link remove" href="#">
+                Remove
+              </a>
+            </li>
+          </ul>
+          <div class="modal__start">
+            <img class="mb-3" src="images/star-collection.svg" alt="star-modal">
+            <p class="modal__start-money">
+              36.99 USD
+            </p>
+            <span class="modal__start-discount">
+              48.56 USD
+            </span>
+          </div>
+          <div class="modal__button px-1 d-flex align-items-center">
+            <span class="modal__btn-span">1 pcs</span>
+            <span class="modal__btn-line d-inline-block"></span>
+            <div class="dropdown">
+              <button class="modal__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pcs
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Action</button></li>
+                <li><button class="dropdown-item" type="button">Another action</button></li>
+                <li><button class="dropdown-item" type="button">Something else here</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal__bottom border-bottom mt-3">
+        <h3 class="modal__bottom-title">
+          Subtotal
+        </h3>
+        <span class="modal__bottom-span d-inline-block mb-3">
+          73.98 USD
+        </span>
+      </div>
+      <div class="row d-flex align-items-center mt-4">
+        <div class="col-6">
+          <h4 class="modal__bottom-subtitle mb-0">
+            Continue shopping
+          </h4>
+        </div>
+        <div class="col-6">
+          <a class="modal__bottom-btn" href="#">
+            Go to Checkout
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal end -->
+  <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+
+  <script src="slick/slick/slick.min.js"></script>  
+  <script src="./bs-js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

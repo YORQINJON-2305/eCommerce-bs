@@ -1,0 +1,161 @@
+.breadcrumb-link{
+    font-size: 12px;
+}
+
+.carrot-img{
+    height: 436px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    background-image: url("../../images/strawberry.jpg");
+}
+
+.badge{
+    padding: 4px 12px;
+    background-color: #F4F8EC;
+    color: #6A983C !important;
+}
+
+.customer-review{
+    font-size: 12px;
+}
+
+.carrot-text{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.info-text-start{
+    margin-right: 15px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #a9a9a9;
+    white-space: nowrap;
+}
+
+.info-text-end{
+    font-size: 14px;
+    color: $dark;
+    white-space: nowrap;
+}
+
+.carrot-price-wrap{
+    padding: 16px;
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+    border-radius: 12px;
+}
+
+.carrot-price{
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.carrot-del-price{
+    font-size: 12px;
+    color: #a9a9a9;
+}
+
+.select-pc{
+    max-width: 111px;
+    height: 48px;
+    padding: 14px 16px;
+    background-color: #f9f9f9;
+    border: 1px solid #d1d1d1;
+    border-radius: 12px;
+}
+
+.select-text{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #d1d1d1;
+
+    &::after{
+        display: block;
+        width: 1px;
+        height: 20px;
+        margin: 0px 16px;
+        background-color: #d1d1d1;
+        content: "";
+    }
+}
+
+.select-number{
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.add-btn{
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #6A983C;
+    border: 2px solid #46760A;
+    // white-space: nowrap;
+}
+
+.carrot-img-between{
+    height: 436px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    background-image: url("../../images/strawberry.jpg");
+}
+
+.carrot-between-item{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    &::before{
+        display: block;
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+        background-repeat: no-repeat;
+        background-position: center;
+        content: "";
+    }
+
+    &:first-child::before{
+        background-image: url(../../images/heart.svg);
+    }
+    &:last-child::before{
+        background-image: url(../../images/compare-icon.svg);
+    }
+}
+
+.carrot-tab-list{
+    border-bottom: 1px solid #f5f5f5f5;
+}
+
+.carrot-between-descr{
+    display: flex;
+    align-items: start;
+}
+
+.carrot-between-descr:first-child{
+    border-bottom: 1px solid #6A983C;
+}
+
+.carrot-between-descr-text{
+    font-size: 14px;
+}
+
+.carrot-img-end{
+    height: 436px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    background-image: url("../../images/strawberry.jpg");
+}
+
+
+@include mobile-first(576px){
+    .carrot-price{
+        font-size: 26px;
+    }
+}
