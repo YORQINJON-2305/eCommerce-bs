@@ -72,7 +72,7 @@
                </a>
              </div>
              <div class="col col-sm-1 d-flex align-items-center justify-content-center">
-               <button class="cart-btn position-relative">
+               <button class="cart-btn position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                  <span class="cart-badge position-absolute d-flex align-items-center justify-content-center">4</span>
                </button>
              </div>
@@ -537,6 +537,181 @@
       </div>
   </footer>
   <!-- END OF FOOTER -->
+
+  <!-- Modal start -->
+
+  <div class="modal__block px-3 pt-3 pb-5 offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="row d-flex align-items-center mb-4 " id="offcanvasRightLabel">
+      <div class="col-8">
+        <h2 class="modal__title">
+          Shopping cart
+        </h2>
+      </div>
+      <div class="col-4 d-flex justify-content-end">
+        <button class="modal__btn" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="offcanvas-body">
+      <div class="row mb-3  border-bottom">
+        <div class="col-12 mb-3 d-flex">
+          <img class="me-3 modal__image" src="images/grapes-home.jpg" alt="modal-images">
+          <div class="modal__info">
+            <h3 class="modal__info-title mb-1">
+              Product title
+            </h3>
+            <ul class="modal__list">
+              <li class="modal__item">
+                <a href="#" class="moda__link">Farm:
+                  <span class="modal__info-span modal__info-farm">
+                    Tharamis Farm
+                  </span>
+                </a>
+              </li>
+              <li class="modal__item">
+                <a href="#" class="moda__link">Freshness:
+                  <span class="modal__info-span modal__info-day">
+                    1 day old
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 mb-3 d-flex justify-content-between">
+          <ul class="modal__list-icon">
+            <li class="modal__icon-item">
+              <a class="modal__icon-link heart  mb-2" href="#">
+                Wishlist
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link compare mb-2" href="#">
+                Compare
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link remove" href="#">
+                Remove
+              </a>
+            </li>
+          </ul>
+          <div class="modal__start">
+            <img class="mb-3" src="images/star-collection.svg" alt="star-modal">
+            <p class="modal__start-money">
+              36.99 USD
+            </p>
+            <span class="modal__start-discount">
+              48.56 USD
+            </span>
+          </div>
+          <div class="modal__button px-1 d-flex align-items-center">
+            <span class="modal__btn-span">1 pcs</span>
+            <span class="modal__btn-line d-inline-block"></span>
+            <div class="dropdown">
+              <button class="modal__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pcs
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Action</button></li>
+                <li><button class="dropdown-item" type="button">Another action</button></li>
+                <li><button class="dropdown-item" type="button">Something else here</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3  border-bottom">
+        <div class="col-12 mb-3 d-flex">
+          <img class="me-3 modal__image" src="images/grapes-home.jpg" alt="modal-images">
+          <div class="modal__info">
+            <h3 class="modal__info-title mb-1">
+              Product title
+            </h3>
+            <ul class="modal__list">
+              <li class="modal__item">
+                <a href="#" class="moda__link">Farm:
+                  <span class="modal__info-span modal__info-farm">
+                    Tharamis Farm
+                  </span>
+                </a>
+              </li>
+              <li class="modal__item">
+                <a href="#" class="moda__link">Freshness:
+                  <span class="modal__info-span modal__info-day">
+                    1 day old
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 mb-3 d-flex justify-content-between">
+          <ul class="modal__list-icon">
+            <li class="modal__icon-item">
+              <a class="modal__icon-link heart  mb-2" href="#">
+                Wishlist
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link compare mb-2" href="#">
+                Compare
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link remove" href="#">
+                Remove
+              </a>
+            </li>
+          </ul>
+          <div class="modal__start">
+            <img class="mb-3" src="images/star-collection.svg" alt="star-modal">
+            <p class="modal__start-money">
+              36.99 USD
+            </p>
+            <span class="modal__start-discount">
+              48.56 USD
+            </span>
+          </div>
+          <div class="modal__button px-1 d-flex align-items-center">
+            <span class="modal__btn-span">1 pcs</span>
+            <span class="modal__btn-line d-inline-block"></span>
+            <div class="dropdown">
+              <button class="modal__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pcs
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Action</button></li>
+                <li><button class="dropdown-item" type="button">Another action</button></li>
+                <li><button class="dropdown-item" type="button">Something else here</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal__bottom border-bottom mt-3">
+        <h3 class="modal__bottom-title">
+          Subtotal
+        </h3>
+        <span class="modal__bottom-span d-inline-block mb-3">
+          73.98 USD
+        </span>
+      </div>
+      <div class="row d-flex align-items-center mt-4">
+        <div class="col-6">
+          <h4 class="modal__bottom-subtitle mb-0">
+            Continue shopping
+          </h4>
+        </div>
+        <div class="col-6">
+          <a class="modal__bottom-btn" href="#">
+            Go to Checkout
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal end -->
 
     <script src="./bs-js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
