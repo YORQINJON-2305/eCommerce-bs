@@ -726,6 +726,7 @@ body {
 
 .category__info {
   background-image: url("../images/category-bg-line.jpg");
+  background-color: #F4F8EC;
   height: 280px;
   padding: 48px 0 38px 33px;
 }
@@ -1697,20 +1698,6 @@ body {
     font-size: 26px;
   }
 }
-/*footer*/
-.site-footer {
-  padding-top: 100px;
-}
-
-.tags-f {
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  padding: 4px 10px;
-  background: #F5F5F5;
-  border-radius: 12px;
-}
-
 /* Category section start */
 .category-heading {
   font-family: "Poppins";
@@ -2111,6 +2098,20 @@ div[slider] > input[type=range]::-ms-tooltip {
 
 .dn {
   display: none;
+}
+
+/*footer*/
+.site-footer {
+  padding-top: 100px;
+}
+
+.tags-f {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 4px 10px;
+  background: #F5F5F5;
+  border-radius: 12px;
 }
 
 /*!
