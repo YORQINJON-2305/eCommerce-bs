@@ -1,0 +1,19 @@
+/*topic*/
+.topic{
+    margin-top: 60px;
+}
+.topic-btn::after{
+    content: "";
+    margin-left: 12px;
+    display: inline-block;
+    background-image: url("../images/strelka.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 8px;
+    height: 10px;
+
+}
+.right-item-new{
+    width: 100%;
+    max-width: 267px;
+}

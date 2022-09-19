@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>eCommerce</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <!-- HEADER START -->
+    <header class="site-header">
+        <div class="e-container">
+          <div class="header-top d-flex align-items-center justify-content-sm-between py-3">
+              <ul class="header-top-list d-flex justify-content-between list-unstyled mb-0">
+                <li class="header-top-item">
+                  <a class="header-top-link text-decoration-none link-success" href="#">Chat with us</a>
+                </li>
+                <li class="header-top-item">
+                  <a class="header-top-link text-decoration-none link-dark" href="#">+420 336 775 664</a>
+                </li>
+                <li class="header-top-item">
+                  <a class="header-top-link text-decoration-none link-dark" href="#">info@freshnesecom.com</a>
+                </li>
+              </ul>
+              <div class="header-page-list-wrap">
+                <button class="close-btn"></button>
+                <ul class="header-page-list list-unstyled mb-0">
+                  <li class="header-page-item">
+                    <a class="header-page-link" href="#">Blog</a>
+                  </li>
+                  <li class="header-page-item">
+                    <a class="header-page-link" href="#">About Us</a>
+                  </li>
+                  <li class="header-page-item">
+                    <a class="header-page-link" href="#">Careers</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+          <div class="header-between">
+            <div class="row d-flex align-items-center justify-content-between">
+              <div class="col col-sm-4 col-md-3 logo-wrapper d-flex align-items-center justify-content-center justify-content-sm-start">
+                <a href="./index.html">
+                  <img class="logo" src="./images/logo.svg" width="130" height="15" alt="Freshnesecom's logo">
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-md-7 order-5 order-sm-0">
+                <form class="search-form d-flex align-items-center" action="https://echo.htmlacademy.ru/courses">
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      All categories
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Bakery</a></li>
+                      <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                      <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                      <li><a class="dropdown-item" href="#">Drinks</a></li>
+                      <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                      <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                      <li><a class="dropdown-item" href="#">Baby</a></li>
+                      <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+                    </ul>
+                  </div>
+                  <input class="search-input" type="text" placeholder="Search Produ...">
+                </form>
+              </div>
+               <div class="col col-sm-1 d-flex align-items-center justify-content-center">
+                 <a href="#">
+                   <img class="person-icon" src="./images/person-icon.svg" width="15" height="15" alt="Person icon">
+                 </a>
+               </div>
+               <div class="col col-sm-1 d-flex align-items-center justify-content-center">
+                 <button class="cart-btn position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                   <span class="cart-badge position-absolute d-flex align-items-center justify-content-center">4</span>
+                 </button>
+               </div>
+               <div class="col burger-col d-flex d-sm-none align-items-center justify-content-end">
+                 <button class="burger"></button>
+               </div>
+            </div>
+          </div>
+        </div>
+        <nav class="sitenav mt-4">
+          <div class="e-container">
+            <ul class="nav-list list-unstyled d-flex flex-column align-items-center flex-sm-row flex-wrap">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bakery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Fruit and vegetables</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Meat and fish</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Drinks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kitchen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Special nutrition</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Baby</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pharmacy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- END OF SITE HEADER -->
+
+    <!-- START SITE MAIN -->
+    <main>
+     <!-- start dinner section -->
+     <section class="dinner pt-5">
+        <div class="e-container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-decoration-none  text-secondary" href="#">Homepage</a></li>
+                    <li class="breadcrumb-item "><a class="text-decoration-none text-secondary" href="#">Fruit and vegetables</a></li>
+                    <li class="breadcrumb-item "><a class="text-decoration-none text-dark" href="#">Product title</a></li>
+                </ol>
+            </nav>
+            <div class="dinner-inner justify-content-center">
+                <div class="dinner-box d-flex">
+                <ul class="list-unstyled pe-4">
+                    <li class="text-secondary h6">Date:</li>
+                    <li class="text-secondary h6">Category:</li>
+                    <li class="text-secondary h6">Author:</li>
+                </ul>
+                <ul class="list-unstyled pe-4">
+                    <li class="text-light h6 mb-0">22. 6. 2020</li>
+                    <li class="pt-1"><a class="text-light h6" href="">Dinner</a></li>
+                    <li class="pt-1"><a class="text-light h6" href="">Admin</a></li>
+                </ul>
+            </div>
+            <h2 class="dinner-title text-light">Space for your heading, can be larger so don’t worry - large heading looks better</h2>
+            </div>
+        </div>
+     </section>
+     <!-- end of dinner section -->
+     <!-- start tags section -->
+     <section class="tags">
+        <div class="e-container">
+            <div class="tags-wrap">
+            <div class="tags-left">
+                <h4>Tags</h4>
+                <div class="tags-box d-flex flex-wrap">
+                    <span class="num-page text-success me-2 mt-2">Food</span>
+                    <span class="num-page text-success me-2 mt-2">Recepies</span>
+                    <span class="num-page text-success me-2 mt-2">Fresh</span>
+                    <span class="num-page text-success me-2 mt-2">Vegetable</span>
+                </div>
+                <a class="back-tags h5 text-decoration-none text-dark" href="">Back to Blog</a>
+            </div>
+            <div class="tags-right">
+                <p>There’s nothing like a warm cup of tea to start your morning—or maybe you’re all about an iced hibiscus on a sunny Saturday afternoon. Whether you’re just craving chamomile or are looking to ditch your coffee dependency, here’s our go-to guide on incorporating a few new teas into your daily routine! </p>
+                <div class="pt-5">
+                <h4>Morning Ritual // 9:00 AM
+                </h4>
+                <p class="pt-3">Want that extra morning energy without the caffeine jitters? Switch out your morning mug of coffee for a warm, energizing cup of earl grey. Serve as is or stir in some milk and honey for extra coziness. If you want to spice things up, try chai tea instead! The combination of cinnamon, cardamom, and ginger smells amazing and gives you that nice little flavor kick to start your day off right.</p>
+            </div>
+            <div class="pt-5">
+                <h4>Mid-day Boost // 2:00 PM
+                </h4>
+                <p class="pt-3">If you’re feeling a little sluggish post-lunch, beat the afternoon slump with some lemon ginger green tea. Green tea can be a great alternative to coffee in the afternoon when you want that little boost of energy. An added benefit: lemon and ginger work together to aid digestion which is especially helpful after lunch. </p>
+                <p class="pt-3">If you’re not into hot drinks, opt-in for a fruity iced green tea instead. Steep some honeydew or peach green tea in hot water for a few minutes and then pour over ice until it’s nice and cool. Enjoy with a slice of lemon, and you’ll feel refreshed and ready to tackle any task. </p>
+            </div>
+            <div class="pt-5">
+                <h4>Evening Calm // 8:00 PM
+                </h4>
+                <p class="pt-3">Slip on some fuzzy socks, light your favorite candles, and fire up the kettle—it’s time to wind down after a long day. Grab yourself a soothing cup of lavender chamomile tea and indulge in some well-deserved self-love. </p>
+            </div>
+            <ul class="tags-list list-unstyled pt-5">
+                <li class="tags-item h5">Share
+                </li>
+                <li class="tags-item">
+                    <a class="tags-link text-decoration-none" href="">Facebook</a>
+                </li>
+                <li class="tags-item">
+                    <a class="tags-link text-decoration-none" href="">Pinterest</a>
+                </li>
+                <li class="tags-item">
+                    <a class="tags-link text-decoration-none" href="">Twitter</a>
+                </li>
+                <li class="tags-item">
+                    <a class="tags-link text-decoration-none" href="">LinkedIn</a>
+                </li>
+            </ul>
+            <div class="account pt-5">
+                <div class="account-inner">
+                    <h3>Leave a reply</h3>
+                    <p class="pt-2
+                    ">Allrady have an account? <a class="text-dark" href="">Sign in</a> to leave a reply.</p>
+                    <form>
+                        <div class="form-box">
+                        <div class="mb-3 pe-4">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                          </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+                          </div>
+                        </div>
+                          <div class="form-check d-inline-block bg-light p-2 ps-5 rounded-3 border">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required="">
+                            <label class="form-check-label" for="invalidCheck2">
+                                Save my name and email in this browser for a next time comment.
+                            </label>
+                          </div>
+                          <div class="mb-3 pt-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                            placeholder="Space for your comments"
+                            rows="3"></textarea>
+                          </div>
+                          <button class="form-btn">Send a comment</button>
+                    </form>
+                </div>
+                <div class="comments mt-5">
+                    <h3>Comments</h3>
+                    <div class="comments-box mt-4 border-2 rounded-3 border">
+                        <div class="author-img pt-3 ps-3">
+                            <span>
+                                <a class="text-decoration-none h6 text-dark" href="">Author</a>
+                                <a class="green-aut text-success h6 text-decoration-none" href="">Admin</a>
+                                <span class="text-secondary d-block">22. 6. 2020</span>
+                            </span>
+                        </div>
+                        <p class="pt-4 ps-3">Hi everyone,  <br>       
+                            we have been working hard with the team bringing a new articles. It has passed a few months till we released it in case of traveling and shooting, hopefully you’ll love it.</p>
+                    </div>
+                    <div class="comments-box-new mt-4 border-2 rounded-3 border">
+                        <div class="author-img-new pt-3 ps-3">
+                            <span>
+                                <a class="text-decoration-none h6 text-dark" href="">User</a>
+                                <a class="green-aut text-dark h6 text-decoration-none" href="">Customer</a>
+                                <span class="text-secondary d-block">22. 6. 2020</span>
+                            </span>
+                        </div>
+                        <p class="pt-4 ps-3 pe-2">Don’t worry about that, we are happy to read a new stories. The time we had to wait was crazy, but the results are awesome! You did an epic job. Now I just need to a buy one.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+     </section>
+     <!-- end of tags section -->
+    <!-- start topic section -->
+    <section class="topic">
+        <div class="e-container">
+            <div class="topic-inner">
+                <div class="topic-btn-wrap d-flex justify-content-between">
+                    <h4>Related topics</h4>
+                    <a class="topic-btn text-decoration-none h5 text-dark" href="">Button</a>
+                </div>
+                <ul class="list-unstyled mt-4 d-flex justify-content-between flex-wrap">
+                    <li class="right-item-new d-block pt-3">
+                        <img class="d-block pb-3" src="./images/first.png" alt="">
+                        <a class="green text-decoration-none text-success" href="">Tag</a>
+                        <h5 class="pt-3">Space for your heding is here, write what you need</h5>
+                        <ul class="right-name list-unstyled d-flex align-items-center">
+                            <li class="right-name-i">
+                                Author
+                            </li>
+                            <li class="right-name-i ps-3">
+                                17. 6. 2020
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="right-item-new d-block pt-3">
+                        <img class="d-block pb-3" src="./images/two.png" alt="">
+                        <a class="green text-decoration-none text-success" href="">Tag</a>
+                        <h5 class="pt-3">Space for your heding is here, write what you need</h5>
+                        <ul class="right-name list-unstyled d-flex align-items-center">
+                            <li class="right-name-i">
+                                Author
+                            </li>
+                            <li class="right-name-i ps-3">
+                                17. 6. 2020
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="right-item-new d-block pt-3">
+                        <img class="d-block pb-3" src="./images/bread.jpg" alt="">
+                        <a class="green text-decoration-none text-success" href="">Tag</a>
+                        <h5 class="pt-3">Space for your heding is here, write what you need</h5>
+                        <ul class="right-name list-unstyled d-flex align-items-center">
+                            <li class="right-name-i">
+                                Author
+                            </li>
+                            <li class="right-name-i ps-3">
+                                17. 6. 2020
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="right-item-new d-block pt-3">
+                        <img class="d-block pb-3" src="./images/soup.jpg" alt="">
+                        <a class="green text-decoration-none text-success" href="">Tag</a>
+                        <h5 class="pt-3">Space for your heding is here, write what you need</h5>
+                        <ul class="right-name list-unstyled d-flex align-items-center">
+                            <li class="right-name-i">
+                                Author
+                            </li>
+                            <li class="right-name-i ps-3">
+                                17. 6. 2020
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- end of topic section -->
+    </main>
+    <!-- END OF SITE MAIN -->
+
+    <!-- START FOOTER -->
+    <footer class="site-footer">
+        <div class="e-container">
+            <div class="footer-top row">
+                <div class="col-sm-6 col-md-4 col-lg-3 pt-2">
+                    <h4>Get in touch</h4>
+                    <ul class="list-unstyled">
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">About Us</a>
+                        </li>
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Careers</a>
+                        </li>
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Press Releases</a>
+                        </li>
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 pt-2">
+                    <h4>Connections</h4>
+                    <ul class="list-unstyled">
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Facebook</a>
+                        </li>
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Twitter</a>
+                        </li>
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Instagram</a>
+                        </li>
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Youtube</a>
+                        </li>
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 pt-2">
+                    <h4>Earnings</h4>
+                    <ul class="list-unstyled">
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Become an Affiliate</a>
+                        </li>
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Advertise your product</a>
+                        </li>
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Sell on Market</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 pt-2">
+                    <h4>Account</h4>
+                    <ul class="list-unstyled">
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Your account</a>
+                        </li>
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Returns Centre</a>
+                        </li>
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">100 % purchase protection</a>
+                        </li>
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Chat with us</a>
+                        </li>
+                        <li class="pt-3">
+                            <a class="text-decoration-none text-success" href="">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-end mt-5">
+                <h4>Product tags</h4>
+                <div class="footer-tags d-flex flex-wrap">
+                    <span class="tags-f me-3 mt-3">Beans</span>
+                    <span class="tags-f me-3 mt-3">Carrots</span>
+                    <span class="tags-f me-3 mt-3">Apples</span>
+                    <span class="tags-f me-3 mt-3">Garlic</span>
+                    <span class="tags-f me-3 mt-3">Mushrooms</span>
+                    <span class="tags-f me-3 mt-3">Tomatoes</span>
+                    <span class="tags-f me-3 mt-3">Chilli peppers</span>
+                    <span class="tags-f me-3 mt-3">Broccoli</span>
+                    <span class="tags-f me-3 mt-3">Watermelons</span>
+                    <span class="tags-f me-3 mt-3">Oranges</span>
+                    <span class="tags-f me-3 mt-3">Bananas</span>
+                    <span class="tags-f me-3 mt-3">Grapes</span>
+                    <span class="tags-f me-3 mt-3">Cherries</span>
+                    <span class="tags-f me-3 mt-3">Meat</span>
+                    <span class="tags-f me-3 mt-3">Seo tag</span>
+                    <span class="tags-f me-3 mt-3">Fish</span>
+                    <span class="tags-f me-3 mt-3">Seo tag</span>
+                    <span class="tags-f me-3 mt-3">Fresh food</span>
+                    <span class="tags-f me-3 mt-3">Lemons</span>
+                </div>
+            </div>
+            <p class="mt-5">Copyright © 2020 petrbilek.com</p>
+        </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <!-- Modal start -->
+
+  <div class="modal__block px-3 pt-3 pb-5 offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="row d-flex align-items-center mb-4 " id="offcanvasRightLabel">
+      <div class="col-8">
+        <h2 class="modal__title">
+          Shopping cart
+        </h2>
+      </div>
+      <div class="col-4 d-flex justify-content-end">
+        <button class="modal__btn" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="offcanvas-body">
+      <div class="row mb-3  border-bottom">
+        <div class="col-12 mb-3 d-flex">
+          <img class="me-3 modal__image" src="images/grapes-home.jpg" alt="modal-images">
+          <div class="modal__info">
+            <h3 class="modal__info-title mb-1">
+              Product title
+            </h3>
+            <ul class="modal__list">
+              <li class="modal__item">
+                <a href="#" class="moda__link">Farm:
+                  <span class="modal__info-span modal__info-farm">
+                    Tharamis Farm
+                  </span>
+                </a>
+              </li>
+              <li class="modal__item">
+                <a href="#" class="moda__link">Freshness:
+                  <span class="modal__info-span modal__info-day">
+                    1 day old
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 mb-3 d-flex justify-content-between">
+          <ul class="modal__list-icon">
+            <li class="modal__icon-item">
+              <a class="modal__icon-link heart  mb-2" href="#">
+                Wishlist
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link compare mb-2" href="#">
+                Compare
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link remove" href="#">
+                Remove
+              </a>
+            </li>
+          </ul>
+          <div class="modal__start">
+            <img class="mb-3" src="images/star-collection.svg" alt="star-modal">
+            <p class="modal__start-money">
+              36.99 USD
+            </p>
+            <span class="modal__start-discount">
+              48.56 USD
+            </span>
+          </div>
+          <div class="modal__button px-1 d-flex align-items-center">
+            <span class="modal__btn-span">1 pcs</span>
+            <span class="modal__btn-line d-inline-block"></span>
+            <div class="dropdown">
+              <button class="modal__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pcs
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Action</button></li>
+                <li><button class="dropdown-item" type="button">Another action</button></li>
+                <li><button class="dropdown-item" type="button">Something else here</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3  border-bottom">
+        <div class="col-12 mb-3 d-flex">
+          <img class="me-3 modal__image" src="images/grapes-home.jpg" alt="modal-images">
+          <div class="modal__info">
+            <h3 class="modal__info-title mb-1">
+              Product title
+            </h3>
+            <ul class="modal__list">
+              <li class="modal__item">
+                <a href="#" class="moda__link">Farm:
+                  <span class="modal__info-span modal__info-farm">
+                    Tharamis Farm
+                  </span>
+                </a>
+              </li>
+              <li class="modal__item">
+                <a href="#" class="moda__link">Freshness:
+                  <span class="modal__info-span modal__info-day">
+                    1 day old
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 mb-3 d-flex justify-content-between">
+          <ul class="modal__list-icon">
+            <li class="modal__icon-item">
+              <a class="modal__icon-link heart  mb-2" href="#">
+                Wishlist
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link compare mb-2" href="#">
+                Compare
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link remove" href="#">
+                Remove
+              </a>
+            </li>
+          </ul>
+          <div class="modal__start">
+            <img class="mb-3" src="images/star-collection.svg" alt="star-modal">
+            <p class="modal__start-money">
+              36.99 USD
+            </p>
+            <span class="modal__start-discount">
+              48.56 USD
+            </span>
+          </div>
+          <div class="modal__button px-1 d-flex align-items-center">
+            <span class="modal__btn-span">1 pcs</span>
+            <span class="modal__btn-line d-inline-block"></span>
+            <div class="dropdown">
+              <button class="modal__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pcs
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Action</button></li>
+                <li><button class="dropdown-item" type="button">Another action</button></li>
+                <li><button class="dropdown-item" type="button">Something else here</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal__bottom border-bottom mt-3">
+        <h3 class="modal__bottom-title">
+          Subtotal
+        </h3>
+        <span class="modal__bottom-span d-inline-block mb-3">
+          73.98 USD
+        </span>
+      </div>
+      <div class="row d-flex align-items-center mt-4">
+        <div class="col-6">
+          <h4 class="modal__bottom-subtitle mb-0">
+            Continue shopping
+          </h4>
+        </div>
+        <div class="col-6">
+          <a class="modal__bottom-btn" href="#">
+            Go to Checkout
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal end -->
+
+    
+    <script src="./bs-js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

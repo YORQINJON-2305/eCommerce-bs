@@ -1,0 +1,33 @@
+/*dinner*/
+.dinner-inner{
+    margin-top: 64px;
+    width: 100%;
+    background-image: url("../images/shadov.png"), url("../images/strawberry.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+}
+.dinner-title{
+    // padding-top: 313px;
+    padding-bottom: 32px;
+    padding-left: 50px;
+    width: 100%;
+    max-width: 500px;
+}
+.dinner-box{
+    padding-left: 50px;
+    padding-top: 345px;
+}
+@include mobile-first(800px){
+.dinner-inner{
+    display: flex;
+    justify-content: center;
+}
+.dinner-title{
+    padding-top: 313px;
+}
+.dinner-title{
+    padding-left: 0;
+}
+}

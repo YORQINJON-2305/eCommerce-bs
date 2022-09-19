@@ -1,0 +1,151 @@
+/*tags*/
+.tags-box{
+    width: 190px;
+    padding-bottom: 60px;
+}
+.back-tags::before{
+    margin-right: 10px;
+    content: "";
+    display: inline-block;
+    background-image: url("../../images/Layer.svg");
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+}
+.tags-wrap{
+    padding-top: 90px;
+}
+
+.tags-right{
+    padding-top: 50px;
+    width: 100%;
+    max-width: 569px;
+}
+.tags-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tags-item{
+    margin-top: 10px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    background: #F5F5F5;
+    border-radius: 12px;
+    &:first-child{
+        margin-top: 10px;
+        margin-bottom: 0;
+        padding: 0;
+        background: transparent;
+    }
+    &:nth-child(2)::before{
+        content: "";
+        margin-right: 6px;
+        display: inline-block;
+        background-image: url("../../images/icon-facebook.svg");
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+    &:nth-child(3)::before{
+        content: "";
+        margin-right: 6px;
+        display: inline-block;
+        background-image: url("../../images/Pinterest.svg");
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+    &:nth-child(4)::before{
+        content: "";
+        margin-right: 6px;
+        display: inline-block;
+        background-image: url("../../images/icon-twitter.svg");
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+    &:nth-child(5)::before{
+        content: "";
+        margin-right: 6px;
+        display: inline-block;
+        background-image: url("../../images/icon-linkedin.svg");
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+}
+.tags-link{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+}
+.form-btn{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 12px 48px;
+    background: #6A983C;
+    border: 2px solid #46760A;
+    border-radius: 12px;
+}
+
+.author-img{
+    display: flex;
+    align-items: center;
+}
+.author-img::before{
+    content: "";
+    margin-right: 12px;
+    display: inline-block;
+    background-image: url("../../images/girl-home.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+.author-img-new{
+    display: flex;
+    align-items: center;
+}
+.author-img-new::before{
+    content: "";
+    margin-right: 12px;
+    display: inline-block;
+    background-image: url("../../images/authornew.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.green-aut{
+    padding: 0px 10px;
+    background-color: #F4F8EC;
+    border-radius: 50px;
+}
+
+@include mobile-first(570px){
+    .tags-wrap{
+        display: flex;
+        justify-content: center;
+    }
+    .tags-right{
+        padding-top: 0;
+    }
+    .form-box{
+        display: flex;
+    }
+    .comments-box-new{
+        margin-left: 100px;
+        }
+    
+}
+@include mobile-first (750px){
+    .tags-list{
+        display: flex;
+        justify-content: space-between;
+    }
+}

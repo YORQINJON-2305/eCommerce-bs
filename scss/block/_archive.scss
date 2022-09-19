@@ -1,0 +1,38 @@
+/*archive*/
+.archive-inner{
+    display: flex;  
+    flex-direction: column;
+}
+.archive-left-box{
+    width: 267px;
+    // width: 100%;
+    // max-width: 267px;
+}
+.arch-input{
+    position: relative;
+}
+.archive-text-box{
+    width: 267px;
+    // width: 100%;
+    // max-width: 267px;
+}
+.btn-arch{
+    font-size: 17px;
+    font-weight: 700;
+    position: absolute;
+    top: 6px;
+    left:170px;
+    border:none;
+    background: transparent;
+}
+
+.right-item{
+   margin-left: 25px;
+    width: 100%;
+    max-width: 267px;
+}
+ @include mobile-first(610px){
+    .archive-inner{
+        flex-direction: row;
+    }
+ }
