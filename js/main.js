@@ -1,3 +1,16 @@
+let closeBtns = document.querySelector(".button")
+let closeInner = document.querySelector(".list-view")
+let closeItem = document.querySelector(".grid-view")
+// let closeOpacity = document.querySelector(".opacity")
+let closeSiteNav = document.querySelector(".sitenav")
+
+
+closeBtns.addEventListener("click", function () {
+    closeInner.classList.add("dn");
+    closeItem.classList.toggle("dn")
+})
+
+
 var elHeader = document.querySelector(".site-header");
 var elBurger = document.querySelector(".burger");
 var elClose = document.querySelector(".close-btn");
@@ -39,3 +52,4 @@ $('.customer__carousel').slick({
       }
     ]
   });
+
