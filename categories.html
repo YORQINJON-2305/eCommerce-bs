@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    
+    <header class="site-header">
+        <div class="e-container">
+          <div class="header-top d-flex align-items-center justify-content-sm-between py-3">
+              <ul class="header-top-list d-flex justify-content-between list-unstyled mb-0">
+                <li class="header-top-item">
+                  <a class="header-top-link text-decoration-none link-success" href="#">Chat with us</a>
+                </li>
+                <li class="header-top-item">
+                  <a class="header-top-link text-decoration-none link-dark" href="#">+420 336 775 664</a>
+                </li>
+                <li class="header-top-item">
+                  <a class="header-top-link text-decoration-none link-dark" href="#">info@freshnesecom.com</a>
+                </li>
+              </ul>
+              <div class="header-page-list-wrap">
+                <button class="close-btn"></button>
+                <ul class="header-page-list list-unstyled mb-0">
+                  <li class="header-page-item">
+                    <a class="header-page-link" href="#">Blog</a>
+                  </li>
+                  <li class="header-page-item">
+                    <a class="header-page-link" href="#">About Us</a>
+                  </li>
+                  <li class="header-page-item">
+                    <a class="header-page-link" href="#">Careers</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+          <div class="header-between">
+            <div class="row d-flex align-items-center justify-content-between">
+              <div class="col col-sm-4 col-md-3 logo-wrapper d-flex align-items-center justify-content-center justify-content-sm-start">
+                <a href="./index.html">
+                  <img class="logo" src="./images/logo.svg" width="130" height="15" alt="Freshnesecom's logo">
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-md-7 order-5 order-sm-0">
+                <form class="search-form d-flex align-items-center" action="https://echo.htmlacademy.ru/courses">
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      All categories
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Bakery</a></li>
+                      <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                      <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                      <li><a class="dropdown-item" href="#">Drinks</a></li>
+                      <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                      <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                      <li><a class="dropdown-item" href="#">Baby</a></li>
+                      <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+                    </ul>
+                  </div>
+                  <input class="search-input" type="text" placeholder="Search Produ...">
+                </form>
+              </div>
+               <div class="col col-sm-1 d-flex align-items-center justify-content-center">
+                 <a href="#">
+                   <img class="person-icon" src="./images/person-icon.svg" width="15" height="15" alt="Person icon">
+                 </a>
+               </div>
+               <div class="col col-sm-1 d-flex align-items-center justify-content-center">
+                 <button class="cart-btn position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                   <span class="cart-badge position-absolute d-flex align-items-center justify-content-center">4</span>
+                 </button>
+               </div>
+               <div class="col burger-col d-flex d-sm-none align-items-center justify-content-end">
+                 <button class="burger"></button>
+               </div>
+            </div>
+          </div>
+        </div>
+        <nav class="sitenav mt-4">
+          <div class="e-container">
+            <ul class="nav-list list-unstyled d-flex flex-column align-items-center flex-sm-row flex-wrap">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bakery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Fruit and vegetables</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Meat and fish</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Drinks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kitchen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Special nutrition</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Baby</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pharmacy</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+    <!-- Category main start -->
+    <main>
+        <section>
+            <div class="e-container">
+                <div class="d-flex align-items-center justify-content-between py-3">
+                    <h2 class="text-dark fw-bold category-heading">Fruit and vegetables</h2>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item top-item active-item">
+                            <a class="nav-link light-gray top-link d-flex align-items-center" aria-current="page" href="#grid-view">
+                               <svg class="svg-img" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.333 1.333H2.666c-.736 0-1.333.597-1.333 1.334v10.666c0 .737.597 1.334 1.333 1.334h10.667c.736 0 1.333-.597 1.333-1.334V2.667c0-.737-.597-1.334-1.333-1.334ZM1.333 8h13.333M8 1.333v13.334" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                               Grid view
+                            </a>
+                         </li>
+                        <li class="nav-item top-item">
+                            <a class="nav-link light-gray top-link d-flex align-items-center" href="#list-view">
+                                <svg class="svg-img" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.333 1.33331H2.66634C1.92996 1.33331 1.33301 1.93027 1.33301 2.66665V13.3333C1.33301 14.0697 1.92996 14.6666 2.66634 14.6666H13.333C14.0694 14.6666 14.6663 14.0697 14.6663 13.3333V2.66665C14.6663 1.93027 14.0694 1.33331 13.333 1.33331Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1.33301 4.66663H14.6663" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1.33301 8H14.6663" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1.33301 11.3333H14.6663" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                List view
+                            </a>
+                        </li>
+                        <li class="nav-item top-item d-flex align-items-center">
+                            <span class="badge rounded-pill text-bg-light badge-style">117</span>
+                            <a class="nav-link light-gray top-link d-flex align-items-center ps-1" href="#">Projects</a>
+                        </li>
+                    </ul>
+
+                </div>
+                
+                <div class="d-flex flex-wrap align-items-center gap-3">
+                    <div class="width-246 d-flex first-radio rounded-4 text-bg-light border border-gray">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Filtre text</label>
+                        </div>
+                        
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Filtre text</label>
+                        </div>
+                    </div>
+                    
+                    <div class="width-151  first-check form-check rounded-4 text-bg-light border border-gray">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">Filtre</label>
+                        <span class="badge text-bg-light rounded-5 border border-gray ms-1">Nbm</span>
+                    </div>
+                    
+                    <div class="width-151 first-check form-check rounded-4 text-bg-light border border-gray">
+                        <input class="form-check-input" type="checkbox" value="" id="filterCheckDefault">
+                        <label class="form-check-label" for="filterCheckDefault">Filtre</label>
+                        <span class="badge text-bg-light rounded-5 border border-gray ms-1">Nbm</span>
+                    </div>
+                    
+                    <div class="width-235 d-flex align-items-center first-check form-check rounded-4    text-bg-light border border-gray">
+                        <input class="form-check-input" type="checkbox" value="" id="lastCheckDefault">
+                        <label class="form-check-label" for="lastCheckDefault">Filtre</label>
+                        <span class="badge text-bg-light rounded-5 border border-gray ms-2">12</span>
+                        <li class="nav-item dropdown list-unstyled item-dropdown d-flex">
+                            <a class="nav-link dropdown-toggle fw-bold ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Select
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+                
+                <div class="d-flex align-items-center">
+                    <p class="gray mt-3 me-3">Applied filtres:</p>
+                    <span class="badge rounded-pill light-green text-success me-3 badge-span">Selected Filtre</span>
+                    <span class="badge rounded-pill light-green text-success badge-span">Selected Filtre</span>
+                </div>
+            </div>
+        </section>
+        
+        <section class="grid-view view-active mt-5 dn">
+            <div class="e-container">
+                <div class="row mb-5">
+                    <div class="col-12 col-lg-3">
+                        <div>
+                            <p class="h5 fw-bold mb-3">Categories</p>
+                            <p class="d-flex justify-content-between">Category name <span class="badge light-green text-success rounded-5">320</span></p>
+                            <p class="d-flex justify-content-between">Category name <span class="badge light-green text-success rounded-5">112</span></p>
+                            <p class="d-flex justify-content-between">Category name <span class="badge light-green text-success rounded-5">32</span></p>
+                            <p class="d-flex justify-content-between">Category name <span class="badge light-green text-success rounded-5">48</span></p>
+                        </div>
+                        
+                        <div class="mt-5 brands-checkings">
+                            <p class="h5 fw-bold mb-3">Brands</p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="nameCheckDefault">
+                                <label class="form-check-label" for="nameCheckDefault">Filtre by brand item</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="brandCheckDefault">
+                                <label class="form-check-label" for="brandCheckDefault">Filtre by brand item</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="brandItemCheckDefault">
+                                <label class="form-check-label" for="brandItemCheckDefault">Filtre by brand item</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="filtringCheckDefault">
+                                <label class="form-check-label" for="filtringCheckDefault">Filtre by brand item</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="endCheckDefault">
+                                <label class="form-check-label" for="endCheckDefault">Filtre by brand item</label>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-5 ratings-checkings">
+                            <p class="h5 fw-bold mb-3">Rating</p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="fivestarCheckDefault">
+                                <label class="form-check-label" for="fivestarCheckDefault">
+                                    <img src="./images/5.svg" alt="Five stars">
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="fourstarCheckDefault">
+                                <label class="form-check-label" for="fourstarCheckDefault">
+                                    <img src="./images/4.svg" alt="Five stars">
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="threestarCheckDefault">
+                                <label class="form-check-label" for="threestarCheckDefault">
+                                    <img src="./images/3.svg" alt="Five stars">
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="twostarCheckDefault">
+                                <label class="form-check-label" for="twostarCheckDefault">
+                                    <img src="./images/2.svg" alt="Five stars">
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="onestarCheckDefault">
+                                <label class="form-check-label" for="onestarCheckDefault">
+                                    <img src="./images/1.svg" alt="Five stars">
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-5">
+                            <p class="h5 fw-bold mb-4">Price</p>
+                            <div class="col-rt-12">
+                                <div class="Scriptcontent">
+                                    <div slider="" id="slider-distance">
+                                        <div>
+                                            <div inverse-left="" style="width: 23%;"></div>
+                                            <div inverse-right="" style="width: 37%;"></div>
+                                            <div range="" style="left: 23%; right: 37%;"></div>
+                                            <span thumb="" style="left: 23%;"></span>
+                                            <span thumb="" style="left: 63%;"></span>
+                                        </div>
+                                        <input type="range" tabindex="0" value="30" max="100" min="0" step="1" oninput="
+                                        this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+                                        var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                                        var children = this.parentNode.childNodes[1].childNodes;
+                                        children[1].style.width=value+'%';
+                                        children[5].style.left=value+'%';
+                                        children[7].style.left=value+'%';children[11].style.left=value+'%';
+                                        children[11].childNodes[1].innerHTML=this.value;">
+                                        <input type="range" tabindex="0" value="60" max="100" min="0" step="1" oninput="
+                                        this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+                                        var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                                        var children = this.parentNode.childNodes[1].childNodes;
+                                        children[3].style.width=(100-value)+'%';
+                                        children[5].style.right=(100-value)+'%';
+                                        children[9].style.left=value+'%';children[13].style.left=value+'%';
+                                        children[13].childNodes[1].innerHTML=this.value;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-check form-check-inline mt-3 me-0rem">
+                                <label class="form-check-label fw-bold" for="numbermin">Min</label>
+                                <input class="form-control w-109 h-49 rounded-4" type="number" min="0" name="inlineRadioOptions" id="numbermin" value="option1" placeholder="0">
+                            </div>
+                            
+                            <span class="text-secondary ms-2 me-2">-</span>
+                            
+                            <div class="form-check form-check-inline mb-4">
+                                <label class="form-check-label fw-bold" for="numbermax">Max</label>
+                                <input class="form-control w-109 h-49 rounded-4" type="number" min="000" name="inlineRadioOptions" id="numbermax" value="option1" placeholder="000">
+                            </div>
+                            
+                            <button type="button" class="btn btn-light-green border-dark-green text-light fw-bold me-4">Apply</button>
+                            <button type="button" class="btn text-secondary fw-bold">Reset</button>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-lg-9">
+                        <div class="row gy-5">
+                            <div class="col-12 col-lg-4">
+                                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                                    <img class="product__card-image mb-3" src="images/egg.jpg" alt="product-title">
+                                    <div class="product__info">
+                                        <h2 class="product__title mb-1">
+                                            Product Title
+                                        </h2>
+                                        <p class="product__text mb-3">
+                                            Space for a small product description 
+                                        </p>
+                                        <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                                            <div class="product__buy-price d-flex flex-column mb-lg-1">1.48 USD
+                                                <del class="product__del product-del-one">48.56</del>
+                                            </div>
+                                            <a class="product__buy-btn bg-green" href="#">Buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 col-md-4">
+                                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                                    <div class="position-relative">
+                                        <img class="product__card-image mb-3" src="images/egg.jpg" alt="product-title">
+                                        <span class="product-discount">- 36 %</span>
+                                    </div>
+                                    <div class="product__info">
+                                        <h2 class="product__title mb-1">
+                                            Product Title
+                                        </h2>
+                                        <p class="product__text mb-3">
+                                            Space for a small product description 
+                                        </p>
+                                        <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                                            <div class="product__buy-price d-flex flex-column mb-lg-1">0.28 USD
+                                                <del class="product__del">48.56</del>
+                                            </div>
+                                            <a class="product__buy-btn" href="#">Buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 col-md-4">
+                                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                                    <div class="position-relative">
+                                        <img class="product__card-image mb-3" src="images/egg.jpg" alt="product-title">
+                                        <span class="product-discount">- 36 %</span>
+                                    </div>
+                                    <div class="product__info">
+                                        <h2 class="product__title mb-1">
+                                            Product Title
+                                        </h2>
+                                        <p class="product__text mb-3">
+                                            Space for a small product description 
+                                        </p>
+                                        <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                                            <div class="product__buy-price d-flex flex-column mb-lg-1">1.12 USD
+                                                <del class="product__del ">48.56</del>
+                                            </div>
+                                            <a class="product__buy-btn" href="#">Buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 col-md-4">
+                                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                                    <img class="product__card-image mb-3" src="images/egg.jpg" alt="product-title">
+                                    <div class="product__info">
+                                        <h2 class="product__title mb-1">
+                                            Product Title
+                                        </h2>
+                                        <p class="product__text mb-3">
+                                            Space for a small product description 
+                                        </p>
+                                        <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                                            <div class="product__buy-price d-flex flex-column mb-lg-1">1.48 USD
+                                                <del class="product__del product-del-one">48.56</del>
+                                            </div>
+                                            <a class="product__buy-btn" href="#">Buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 col-md-4">
+                                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                                    <div class="position-relative">
+                                        <img class="product__card-image mb-3" src="images/egg.jpg" alt="product-title">
+                                        <span class="product-discount">- 36 %</span>
+                                    </div>
+                                    <div class="product__info">
+                                        <h2 class="product__title mb-1">
+                                            Product Title
+                                        </h2>
+                                        <p class="product__text mb-3">
+                                            Space for a small product description 
+                                        </p>
+                                        <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                                            <div class="product__buy-price d-flex flex-column mb-lg-1">0.28 USD
+                                                <del class="product__del">48.56</del>
+                                            </div>
+                                            <a class="product__buy-btn" href="#">Buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 col-md-4">
+                                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                                    <div class="position-relative">
+                                        <img class="product__card-image mb-3" src="images/egg.jpg" alt="product-title">
+                                        <span class="product-discount">- 36 %</span>
+                                    </div>
+                                    <div class="product__info">
+                                        <h2 class="product__title mb-1">
+                                            Product Title
+                                        </h2>
+                                        <p class="product__text mb-3">
+                                            Space for a small product description 
+                                        </p>
+                                        <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                                            <div class="product__buy-price d-flex flex-column mb-lg-1">1.12 USD
+                                                <del class="product__del ">48.56</del>
+                                            </div>
+                                            <a class="product__buy-btn" href="#">Buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 col-md-4">
+                                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                                    <img class="product__card-image mb-3" src="images/egg.jpg" alt="product-title">
+                                    <div class="product__info">
+                                        <h2 class="product__title mb-1">
+                                            Product Title
+                                        </h2>
+                                        <p class="product__text mb-3">
+                                            Space for a small product description 
+                                        </p>
+                                        <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                                            <div class="product__buy-price d-flex flex-column mb-lg-1">1.48 USD
+                                                <del class="product__del product-del-one">48.56</del>
+                                            </div>
+                                            <a class="product__buy-btn" href="#">Buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 col-md-4">
+                                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                                    <div class="position-relative">
+                                        <img class="product__card-image mb-3" src="images/egg.jpg" alt="product-title">
+                                        <span class="product-discount">- 36 %</span>
+                                    </div>
+                                    <div class="product__info">
+                                        <h2 class="product__title mb-1">
+                                            Product Title
+                                        </h2>
+                                        <p class="product__text mb-3">
+                                            Space for a small product description 
+                                        </p>
+                                        <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                                            <div class="product__buy-price d-flex flex-column mb-lg-1">0.28 USD
+                                                <del class="product__del">48.56</del>
+                                            </div>
+                                            <a class="product__buy-btn" href="#">Buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 col-md-4">
+                                <div class="product__card p-3 mx-auto mb-4 mb-lg-0">
+                                    <div class="position-relative">
+                                        <img class="product__card-image mb-3" src="images/egg.jpg" alt="product-title">
+                                        <span class="product-discount">- 36 %</span>
+                                    </div>
+                                    <div class="product__info">
+                                        <h2 class="product__title mb-1">
+                                            Product Title
+                                        </h2>
+                                        <p class="product__text mb-3">
+                                            Space for a small product description 
+                                        </p>
+                                        <div class="product__info-buy d-flex justify-content-between align-items-center flex-lg-column align-items-lg-start flex-xl-row">
+                                            <div class="product__buy-price d-flex flex-column mb-lg-1">1.12 USD
+                                                <del class="product__del ">48.56</del>
+                                            </div>
+                                            <a class="product__buy-btn" href="#">Buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <p class="text-secondary me-2">Page:</p>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link text-dark" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link text-dark" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link text-dark" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link text-dark" href="#">4</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn bg-green text-light fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Show more products
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span class="badge light-green text-success me-1">336</span>
+                        <p class="text-secondary mb-0">Products</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="list-view mt-5">
+            <div class="e-container">
+                <h2 class="visually-hidden">Products</h2>
+                <div class="row mx-auto mb-5">
+                    <div class="col-12 col-lg-3">
+                        <div>
+                            <p class="h5 fw-bold mb-3">Categories</p>
+                            <p class="d-flex justify-content-between">Category name <span class="badge light-green text-success rounded-5">320</span></p>
+                            <p class="d-flex justify-content-between">Category name <span class="badge light-green text-success rounded-5">112</span></p>
+                            <p class="d-flex justify-content-between">Category name <span class="badge light-green text-success rounded-5">32</span></p>
+                            <p class="d-flex justify-content-between">Category name <span class="badge light-green text-success rounded-5">48</span></p>
+                        </div>
+                        
+                        <div class="mt-5 brands-checkings">
+                            <p class="h5 fw-bold mb-3">Brands</p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="nameCheckDefault">
+                                <label class="form-check-label" for="nameCheckDefault">Filtre by brand item</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="brandCheckDefault">
+                                <label class="form-check-label" for="brandCheckDefault">Filtre by brand item</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="brandItemCheckDefault">
+                                <label class="form-check-label" for="brandItemCheckDefault">Filtre by brand item</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="filtringCheckDefault">
+                                <label class="form-check-label" for="filtringCheckDefault">Filtre by brand item</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="endCheckDefault">
+                                <label class="form-check-label" for="endCheckDefault">Filtre by brand item</label>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-5 ratings-checkings">
+                            <p class="h5 fw-bold mb-3">Rating</p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="fivestarCheckDefault">
+                                <label class="form-check-label" for="fivestarCheckDefault">
+                                    <img src="./images/5.svg" alt="Five stars">
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="fourstarCheckDefault">
+                                <label class="form-check-label" for="fourstarCheckDefault">
+                                    <img src="./images/4.svg" alt="Five stars">
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="threestarCheckDefault">
+                                <label class="form-check-label" for="threestarCheckDefault">
+                                    <img src="./images/3.svg" alt="Five stars">
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="twostarCheckDefault">
+                                <label class="form-check-label" for="twostarCheckDefault">
+                                    <img src="./images/2.svg" alt="Five stars">
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="onestarCheckDefault">
+                                <label class="form-check-label" for="onestarCheckDefault">
+                                    <img src="./images/1.svg" alt="Five stars">
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-5">
+                            <p class="h5 fw-bold mb-4">Price</p>
+                            <div class="col-rt-12">
+                                <div class="Scriptcontent">
+                                    <div slider="" id="slider-distance">
+                                        <div>
+                                            <div inverse-left="" style="width: 23%;"></div>
+                                            <div inverse-right="" style="width: 37%;"></div>
+                                            <div range="" style="left: 23%; right: 37%;"></div>
+                                            <span thumb="" style="left: 23%;"></span>
+                                            <span thumb="" style="left: 63%;"></span>
+                                        </div>
+                                        <input type="range" tabindex="0" value="30" max="100" min="0" step="1" oninput="
+                                        this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+                                        var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                                        var children = this.parentNode.childNodes[1].childNodes;
+                                        children[1].style.width=value+'%';
+                                        children[5].style.left=value+'%';
+                                        children[7].style.left=value+'%';children[11].style.left=value+'%';
+                                        children[11].childNodes[1].innerHTML=this.value;">
+                                        <input type="range" tabindex="0" value="60" max="100" min="0" step="1" oninput="
+                                        this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+                                        var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                                        var children = this.parentNode.childNodes[1].childNodes;
+                                        children[3].style.width=(100-value)+'%';
+                                        children[5].style.right=(100-value)+'%';
+                                        children[9].style.left=value+'%';children[13].style.left=value+'%';
+                                        children[13].childNodes[1].innerHTML=this.value;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-check form-check-inline mt-3 me-0rem">
+                                <label class="form-check-label fw-bold" for="numbermin">Min</label>
+                                <input class="form-control w-109 h-49 rounded-4" type="number" min="0" name="inlineRadioOptions" id="numbermin" value="option1" placeholder="0">
+                            </div>
+                            
+                            <span class="text-secondary ms-2 me-2">-</span>
+                            
+                            <div class="form-check form-check-inline mb-4">
+                                <label class="form-check-label fw-bold" for="numbermax">Max</label>
+                                <input class="form-control w-109 h-49 rounded-4" type="number" min="000" name="inlineRadioOptions" id="numbermax" value="option1" placeholder="000">
+                            </div>
+                            
+                            <button type="button" class="btn btn-light-green border-dark-green text-light fw-bold me-4">Apply</button>
+                            <button type="button" class="btn text-secondary fw-bold">Reset</button>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-lg-9">
+                        <div class="card mb-4" style="max-width: 869px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./images/egg.jpg" class="img-fluid rounded-start h-100" alt="The orange">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body d-flex justify-content-between">
+                                        <div>
+                                            <h5 class="card-title mb-0">Product title</h5>
+                                            <p class="card-text mb-1"><small class="text-muted">Space for a small product description </small></p>
+                                            <img src="./images/4-black.svg" alt="Four black starts">
+                                            <ul class="list-unstyled d-flex">
+                                                <li class="me-5">
+                                                    <ul class="list-unstyled">
+                                                        <li class="text-secondary mb-2">Fresheness</li>
+                                                        <li class="text-secondary mb-2">Farm</li>
+                                                        <li class="text-secondary mb-2">Delivery</li>
+                                                        <li class="text-secondary">Stock</li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="list-unstyled">
+                                                        <li class="text-secondary mb-2"><span class="text-success">New</span> (Extra fresh)</li>
+                                                        <li class="text-secondary mb-2">Grocery Tarm Fields</li>
+                                                        <li class="text-secondary mb-2">Europe</li>
+                                                        <li class="text-success">320 pcs</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="d-flex flex-column">
+                                            <span class="h4 mb-0">36.99 USD</span>
+                                            <s class="text-secondary fw-bold">48.56</s>
+                                            <span class="h5 fw-bold text-secondary mt-3 mb-0">Free Shipping</span>
+                                            <span class="text-secondary fs-5 mb-3">Delivery in 1 day</span>
+                                            <div class="btn-group dropend mb-3">
+                                                <button type="button" class="btn btn-secondary dropdown-toggle fw-bold bg-green" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Product Detail
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li>Action</li>
+                                                    <li>Another action</li>
+                                                    <li>Something else here</li>
+                                                </ul>
+                                            </div>
+                                            <button type="button" class="note-btn btn-light fw-bold">Add to wish list</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4" style="max-width: 869px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./images/egg.jpg" class="img-fluid rounded-start h-100" alt="The orange">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body d-flex justify-content-between">
+                                        <div>
+                                            <h5 class="card-title mb-0">Product title</h5>
+                                            <p class="card-text mb-1"><small class="text-muted">Space for a small product description </small></p>
+                                            <img src="./images/4-black.svg" alt="Four black starts">
+                                            <ul class="list-unstyled d-flex">
+                                                <li class="me-5">
+                                                    <ul class="list-unstyled">
+                                                        <li class="text-secondary mb-2">Fresheness</li>
+                                                        <li class="text-secondary mb-2">Farm</li>
+                                                        <li class="text-secondary mb-2">Delivery</li>
+                                                        <li class="text-secondary">Stock</li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="list-unstyled">
+                                                        <li class="text-secondary mb-2"><span class="text-success">New</span> (Extra fresh)</li>
+                                                        <li class="text-secondary mb-2">Grocery Tarm Fields</li>
+                                                        <li class="text-secondary mb-2">Europe</li>
+                                                        <li class="text-success">320 pcs</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="d-flex flex-column">
+                                            <span class="h4 mb-0">36.99 USD</span>
+                                            <s class="text-secondary fw-bold">48.56</s>
+                                            <span class="h5 fw-bold text-secondary mt-3 mb-0">Free Shipping</span>
+                                            <span class="text-secondary fs-5 mb-3">Delivery in 1 day</span>
+                                            <div class="btn-group dropend mb-3">
+                                                <button type="button" class="btn btn-secondary dropdown-toggle fw-bold bg-green" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Product Detail
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li>Action</li>
+                                                    <li>Another action</li>
+                                                    <li>Something else here</li>
+                                                </ul>
+                                            </div>
+                                            <button type="button" class="note-btn btn-light fw-bold">Add to wish list</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4" style="max-width: 869px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./images/egg.jpg" class="img-fluid rounded-start h-100" alt="The orange">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body d-flex justify-content-between">
+                                        <div>
+                                            <h5 class="card-title mb-0">Product title</h5>
+                                            <p class="card-text mb-1"><small class="text-muted">Space for a small product description </small></p>
+                                            <img src="./images/4-black.svg" alt="Four black starts">
+                                            <ul class="list-unstyled d-flex">
+                                                <li class="me-5">
+                                                    <ul class="list-unstyled">
+                                                        <li class="text-secondary mb-2">Fresheness</li>
+                                                        <li class="text-secondary mb-2">Farm</li>
+                                                        <li class="text-secondary mb-2">Delivery</li>
+                                                        <li class="text-secondary">Stock</li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="list-unstyled">
+                                                        <li class="text-secondary mb-2"><span class="text-success">New</span> (Extra fresh)</li>
+                                                        <li class="text-secondary mb-2">Grocery Tarm Fields</li>
+                                                        <li class="text-secondary mb-2">Europe</li>
+                                                        <li class="text-success">320 pcs</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="d-flex flex-column">
+                                            <span class="h4 mb-0">36.99 USD</span>
+                                            <s class="text-secondary fw-bold">48.56</s>
+                                            <span class="h5 fw-bold text-secondary mt-3 mb-0">Free Shipping</span>
+                                            <span class="text-secondary fs-5 mb-3">Delivery in 1 day</span>
+                                            <div class="btn-group dropend mb-3">
+                                                <button type="button" class="btn btn-secondary dropdown-toggle fw-bold bg-green" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Product Detail
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li>Action</li>
+                                                    <li>Another action</li>
+                                                    <li>Something else here</li>
+                                                </ul>
+                                            </div>
+                                            <button type="button" class="note-btn btn-light fw-bold">Add to wish list</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4" style="max-width: 869px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./images/egg.jpg" class="img-fluid rounded-start h-100" alt="The orange">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body d-flex justify-content-between">
+                                        <div>
+                                            <h5 class="card-title mb-0">Product title</h5>
+                                            <p class="card-text mb-1"><small class="text-muted">Space for a small product description </small></p>
+                                            <img src="./images/4-black.svg" alt="Four black starts">
+                                            <ul class="list-unstyled d-flex">
+                                                <li class="me-5">
+                                                    <ul class="list-unstyled">
+                                                        <li class="text-secondary mb-2">Fresheness</li>
+                                                        <li class="text-secondary mb-2">Farm</li>
+                                                        <li class="text-secondary mb-2">Delivery</li>
+                                                        <li class="text-secondary">Stock</li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="list-unstyled">
+                                                        <li class="text-secondary mb-2"><span class="text-success">New</span> (Extra fresh)</li>
+                                                        <li class="text-secondary mb-2">Grocery Tarm Fields</li>
+                                                        <li class="text-secondary mb-2">Europe</li>
+                                                        <li class="text-success">320 pcs</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="d-flex flex-column">
+                                            <span class="h4 mb-0">36.99 USD</span>
+                                            <s class="text-secondary fw-bold">48.56</s>
+                                            <span class="h5 fw-bold text-secondary mt-3 mb-0">Free Shipping</span>
+                                            <span class="text-secondary fs-5 mb-3">Delivery in 1 day</span>
+                                            <div class="btn-group dropend mb-3">
+                                                <button type="button" class="btn btn-secondary dropdown-toggle fw-bold bg-green" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Product Detail
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li>Action</li>
+                                                    <li>Another action</li>
+                                                    <li>Something else here</li>
+                                                </ul>
+                                            </div>
+                                            <button type="button" class="note-btn btn-light fw-bold">Add to wish list</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="max-width: 869px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./images/egg.jpg" class="img-fluid rounded-start h-100" alt="The orange">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body d-flex justify-content-between">
+                                        <div>
+                                            <h5 class="card-title mb-0">Product title</h5>
+                                            <p class="card-text mb-1"><small class="text-muted">Space for a small product description </small></p>
+                                            <img src="./images/4-black.svg" alt="Four black starts">
+                                            <ul class="list-unstyled d-flex">
+                                                <li class="me-5">
+                                                    <ul class="list-unstyled">
+                                                        <li class="text-secondary mb-2">Fresheness</li>
+                                                        <li class="text-secondary mb-2">Farm</li>
+                                                        <li class="text-secondary mb-2">Delivery</li>
+                                                        <li class="text-secondary">Stock</li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="list-unstyled">
+                                                        <li class="text-secondary mb-2"><span class="text-success">New</span> (Extra fresh)</li>
+                                                        <li class="text-secondary mb-2">Grocery Tarm Fields</li>
+                                                        <li class="text-secondary mb-2">Europe</li>
+                                                        <li class="text-success">320 pcs</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="d-flex flex-column">
+                                            <span class="h4 mb-0">36.99 USD</span>
+                                            <s class="text-secondary fw-bold">48.56</s>
+                                            <span class="h5 fw-bold text-secondary mt-3 mb-0">Free Shipping</span>
+                                            <span class="text-secondary fs-5 mb-3">Delivery in 1 day</span>
+                                            <div class="btn-group dropend mb-3">
+                                                <button type="button" class="btn btn-secondary dropdown-toggle fw-bold bg-green" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Product Detail
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li>Action</li>
+                                                    <li>Another action</li>
+                                                    <li>Something else here</li>
+                                                </ul>
+                                            </div>
+                                            <button type="button" class="note-btn btn-light fw-bold">Add to wish list</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <p class="text-secondary me-2">Page:</p>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link text-dark" href="./index.html">1</a></li>
+                                <li class="page-item"><a class="page-link text-dark" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link text-dark" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link text-dark" href="#">4</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn bg-green text-light fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Show more products
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span class="badge light-green text-success me-1">336</span>
+                        <p class="text-secondary mb-0">Products</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Category main finish -->
+    
+
+  <!-- START FOOTER -->
+  <footer class="site-footer">
+    <div class="e-container">
+        <div class="footer-top row">
+            <div class="col-sm-6 col-md-4 col-lg-3 pt-2">
+                <h4>Get in touch</h4>
+                <ul class="list-unstyled">
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">About Us</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Careers</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Press Releases</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 pt-2">
+                <h4>Connections</h4>
+                <ul class="list-unstyled">
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Facebook</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Twitter</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Instagram</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Youtube</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 pt-2">
+                <h4>Earnings</h4>
+                <ul class="list-unstyled">
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Become an Affiliate</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Advertise your product</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Sell on Market</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 pt-2">
+                <h4>Account</h4>
+                <ul class="list-unstyled">
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Your account</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Returns Centre</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">100 % purchase protection</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Chat with us</a>
+                    </li>
+                    <li class="pt-3">
+                        <a class="text-decoration-none text-success" href="">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-end mt-5">
+            <h4>Product tags</h4>
+            <div class="footer-tags d-flex flex-wrap">
+                <span class="tags-f me-3 mt-3">Beans</span>
+                <span class="tags-f me-3 mt-3">Carrots</span>
+                <span class="tags-f me-3 mt-3">Apples</span>
+                <span class="tags-f me-3 mt-3">Garlic</span>
+                <span class="tags-f me-3 mt-3">Mushrooms</span>
+                <span class="tags-f me-3 mt-3">Tomatoes</span>
+                <span class="tags-f me-3 mt-3">Chilli peppers</span>
+                <span class="tags-f me-3 mt-3">Broccoli</span>
+                <span class="tags-f me-3 mt-3">Watermelons</span>
+                <span class="tags-f me-3 mt-3">Oranges</span>
+                <span class="tags-f me-3 mt-3">Bananas</span>
+                <span class="tags-f me-3 mt-3">Grapes</span>
+                <span class="tags-f me-3 mt-3">Cherries</span>
+                <span class="tags-f me-3 mt-3">Meat</span>
+                <span class="tags-f me-3 mt-3">Seo tag</span>
+                <span class="tags-f me-3 mt-3">Fish</span>
+                <span class="tags-f me-3 mt-3">Seo tag</span>
+                <span class="tags-f me-3 mt-3">Fresh food</span>
+                <span class="tags-f me-3 mt-3">Lemons</span>
+            </div>
+        </div>
+        <p class="mt-5">Copyright © 2020 petrbilek.com</p>
+    </div>
+  </footer>
+  <!-- END OF FOOTER -->
+
+  <!-- Modal start -->
+
+  <div class="modal__block px-3 pt-3 pb-5 offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="row d-flex align-items-center mb-4 " id="offcanvasRightLabel">
+      <div class="col-8">
+        <h2 class="modal__title">
+          Shopping cart
+        </h2>
+      </div>
+      <div class="col-4 d-flex justify-content-end">
+        <button class="modal__btn" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="offcanvas-body">
+      <div class="row mb-3  border-bottom">
+        <div class="col-12 mb-3 d-flex">
+          <img class="me-3 modal__image" src="images/grapes-home.jpg" alt="modal-images">
+          <div class="modal__info">
+            <h3 class="modal__info-title mb-1">
+              Product title
+            </h3>
+            <ul class="modal__list">
+              <li class="modal__item">
+                <a href="#" class="moda__link">Farm:
+                  <span class="modal__info-span modal__info-farm">
+                    Tharamis Farm
+                  </span>
+                </a>
+              </li>
+              <li class="modal__item">
+                <a href="#" class="moda__link">Freshness:
+                  <span class="modal__info-span modal__info-day">
+                    1 day old
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 mb-3 d-flex justify-content-between">
+          <ul class="modal__list-icon">
+            <li class="modal__icon-item">
+              <a class="modal__icon-link heart  mb-2" href="#">
+                Wishlist
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link compare mb-2" href="#">
+                Compare
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link remove" href="#">
+                Remove
+              </a>
+            </li>
+          </ul>
+          <div class="modal__start">
+            <img class="mb-3" src="images/star-collection.svg" alt="star-modal">
+            <p class="modal__start-money">
+              36.99 USD
+            </p>
+            <span class="modal__start-discount">
+              48.56 USD
+            </span>
+          </div>
+          <div class="modal__button px-1 d-flex align-items-center">
+            <span class="modal__btn-span">1 pcs</span>
+            <span class="modal__btn-line d-inline-block"></span>
+            <div class="dropdown">
+              <button class="modal__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pcs
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Action</button></li>
+                <li><button class="dropdown-item" type="button">Another action</button></li>
+                <li><button class="dropdown-item" type="button">Something else here</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3  border-bottom">
+        <div class="col-12 mb-3 d-flex">
+          <img class="me-3 modal__image" src="images/grapes-home.jpg" alt="modal-images">
+          <div class="modal__info">
+            <h3 class="modal__info-title mb-1">
+              Product title
+            </h3>
+            <ul class="modal__list">
+              <li class="modal__item">
+                <a href="#" class="moda__link">Farm:
+                  <span class="modal__info-span modal__info-farm">
+                    Tharamis Farm
+                  </span>
+                </a>
+              </li>
+              <li class="modal__item">
+                <a href="#" class="moda__link">Freshness:
+                  <span class="modal__info-span modal__info-day">
+                    1 day old
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 mb-3 d-flex justify-content-between">
+          <ul class="modal__list-icon">
+            <li class="modal__icon-item">
+              <a class="modal__icon-link heart  mb-2" href="#">
+                Wishlist
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link compare mb-2" href="#">
+                Compare
+              </a>
+            </li>
+            <li class="modal__icon-item">
+              <a class="modal__icon-link remove" href="#">
+                Remove
+              </a>
+            </li>
+          </ul>
+          <div class="modal__start">
+            <img class="mb-3" src="images/star-collection.svg" alt="star-modal">
+            <p class="modal__start-money">
+              36.99 USD
+            </p>
+            <span class="modal__start-discount">
+              48.56 USD
+            </span>
+          </div>
+          <div class="modal__button px-1 d-flex align-items-center">
+            <span class="modal__btn-span">1 pcs</span>
+            <span class="modal__btn-line d-inline-block"></span>
+            <div class="dropdown">
+              <button class="modal__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pcs
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Action</button></li>
+                <li><button class="dropdown-item" type="button">Another action</button></li>
+                <li><button class="dropdown-item" type="button">Something else here</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal__bottom border-bottom mt-3">
+        <h3 class="modal__bottom-title">
+          Subtotal
+        </h3>
+        <span class="modal__bottom-span d-inline-block mb-3">
+          73.98 USD
+        </span>
+      </div>
+      <div class="row d-flex align-items-center mt-4">
+        <div class="col-6">
+          <h4 class="modal__bottom-subtitle mb-0">
+            Continue shopping
+          </h4>
+        </div>
+        <div class="col-6">
+          <a class="modal__bottom-btn" href="#">
+            Go to Checkout
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal end -->
+  <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+
+  <script src="./slick/slick/slick.min.js"></script>  
+  <script src="./bs-js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
